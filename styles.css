@@ -1,0 +1,251 @@
+body {
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+  text-align: left;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+a {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h5 {
+  font-weight: 600;
+  color: hsl(208, 49%, 24%);
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+#title {
+  background-image: url("images/bg-pattern-intro.svg"), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-position: 22% 51%;
+  background-repeat: no-repeat;
+  color: hsl(0, 0%, 100%);
+  padding: 2% 10% 10%;
+  border-bottom-left-radius: 80px;
+}
+
+.big-header {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.intro {
+  padding-top: 7%;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.white-button {
+  padding: 10px 30px;
+  color: hsl(356, 100%, 66%);
+  border: 0;
+}
+
+.white-button:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(355, 100%, 74%);
+}
+
+.intro-button {
+  margin: 2% 1% 0;
+  color: hsl(0, 0%, 100%);
+  border: solid hsl(0, 0%, 100%);
+  background: none;
+  padding: 8px 28px;
+}
+
+.intro-button:hover {
+  color: hsl(355, 100%, 74%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+#product {
+  padding: 10% 0 12% 10%;
+  position: relative;
+}
+
+.product-heading {
+  text-align: center;
+  color: hsl(208, 49%, 24%);
+  font-weight: 600;
+  margin-bottom: 6%;
+  padding-right: 10%;
+}
+
+.picture1-container {
+  width: 650px;
+  overflow: hidden;
+  position: absolute;
+  right: 0%;
+  top: 5%;
+}
+
+.product-description {
+  width: 40%;
+  padding-left: 33px;
+}
+
+.description-text {
+  margin-bottom: 80px;
+}
+
+#connection {
+  padding: 8% 10%;
+  background-image: url("images/bg-pattern-circles.svg"), linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-position: -42% 85%;
+  background-repeat: no-repeat;
+  margin-top: 4%;
+  position: relative;
+  color: hsl(0, 0%, 100%);
+  border-bottom-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+
+.picture2-container {
+  position: absolute;
+  top: -65px;
+  left: 145px;
+}
+
+.connection-description {
+  width: 42%;
+  position: relative;
+  left: 55%;
+  top: 10px;
+}
+
+.connection-heading {
+  font-weight: 600;
+}
+
+#features {
+  padding: 15% 10% 22% 0;
+  position: relative;
+}
+
+.picture3-container {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: -18.5%;
+  top: 12%;
+}
+
+.features-description {
+  width: 36%;
+  position: relative;
+  left: 60%;
+  top: 90px;
+}
+
+#footer {
+  background-color: hsl(240, 10%, 16%);
+  color: hsl(0, 0%, 100%);
+  padding: 5% 10% 3% 10%;
+  border-top-right-radius: 80px;
+}
+
+#footer a {
+  display: block;
+  line-height: 2;
+  color: hsl(240, 2%, 79%);
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+  body {
+    text-align: center;
+  }
+
+  #title {
+    background-position: 35% 45%;
+    background-image: url("images/bg-pattern-intro.svg"), linear-gradient(to bottom, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  }
+
+  #product {
+    padding-left: 0;
+    padding-bottom: 50%;
+  }
+
+  .product-heading {
+    padding-right: 0;
+  }
+
+  .picture1-container {
+    position: static;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  .product-description {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #connection {
+    padding: 8% 0 60%;
+  }
+
+  .picture2-container {
+    position: absolute;
+    left: 0;
+    top: -55%;
+    width: 100%;
+  }
+
+  .img1 {
+    width: 100%;
+  }
+
+  .connection-description {
+    width: 100%;
+    position: relative;
+    left:0;
+    top: 250px;
+  }
+
+  #features {
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .picture3-container {
+    position: static;
+    width: 100%;
+  }
+
+  .features-picture {
+    width: 100%;
+  }
+
+  .features-description {
+    position: static;
+    width: 100%;
+  }
+}
